@@ -1,0 +1,289 @@
+CRITICAL - 2022-12-22 02:18:25 --> Class "App\Models\ModelLaporan" not found
+in APPPATH/Controllers/Laporan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Laporan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:52 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:54 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:18:57 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:19:04 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:06 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/printlaporan.php on line 93.
+ 1 APPPATH/Views/laporan/printlaporan.php(93): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(73): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:20:45 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:30 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:31 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:31 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:21:32 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:07 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:08 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:09 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:09 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:51 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:51 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:52 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:52 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:52 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:52 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:22:53 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:23:04 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:26:32 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:27:26 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:27:29 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:27:48 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:28:09 --> Invalid file: Laporan/TabelJualHarian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(57): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 02:28:54 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(57): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 12:01:19 --> Undefined variable $totalberat
+in APPPATH/Views/kasir/listjualharian.php on line 66.
+ 1 APPPATH/Views/kasir/listjualharian.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasir/listjualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/kasir/kasirjual.php(66): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasir/kasirjual.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/templates.php(104): view()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Kasir.php(43): view()
+14 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+15 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 12:55:16 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Kasir.php(48): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

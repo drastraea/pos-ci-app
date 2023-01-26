@@ -1,0 +1,832 @@
+CRITICAL - 2022-12-12 06:19:14 --> Undefined variable: penjualan
+in APPPATH\Views\user.php on line 118.
+ 1 APPPATH\Views\user.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penjualan', 'APPPATH\\Views\\user.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(168): view('user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:19:45 --> Undefined variable: penjualan
+in APPPATH\Views\user.php on line 118.
+ 1 APPPATH\Views\user.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penjualan', 'APPPATH\\Views\\user.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(168): view('user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:26:20 --> Undefined index: kadar_penjualan
+in APPPATH\Views\user.php on line 138.
+ 1 APPPATH\Views\user.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kadar_penjualan', 'APPPATH\\Views\\user.php', 138, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(168): view('user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:47:59 --> Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\user.php on line 137.
+ 1 APPPATH\Views\user.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant value - assumed \'value\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\user.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Views\template.php(168): view('user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\User.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:51:12 --> Undefined index: id_user
+in APPPATH\Models\ModelUser.php on line 23.
+ 1 APPPATH\Models\ModelUser.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Models\\ModelUser.php', 23, [...])
+ 2 APPPATH\Controllers\User.php(48): App\Models\ModelUser->UpdateData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->UpdateData('3')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:53:26 --> Undefined index: id_user
+in APPPATH\Models\ModelUser.php on line 23.
+ 1 APPPATH\Models\ModelUser.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_user', 'APPPATH\\Models\\ModelUser.php', 23, [...])
+ 2 APPPATH\Controllers\User.php(48): App\Models\ModelUser->UpdateData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->UpdateData('3')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:47:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+in APPPATH\Models\ModelPenjualan.php on line 14.
+ 1 APPPATH\Controllers\Penjualan.php(23): App\Models\ModelPenjualan->AllData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:08:46 --> A non well formed numeric value encountered
+in APPPATH\Views\penjualan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\penjualan.php', 48, [...])
+ 2 APPPATH\Views\penjualan.php(48): number_format('1.300.000,00', 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 6 APPPATH\Views\template.php(199): view('Penjualan')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+10 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:09:46 --> A non well formed numeric value encountered
+in APPPATH\Views\penjualan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\penjualan.php', 48, [...])
+ 2 APPPATH\Views\penjualan.php(48): number_format('900,000.00', 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 6 APPPATH\Views\template.php(199): view('Penjualan')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+10 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:12:39 --> A non well formed numeric value encountered
+in APPPATH\Views\penjualan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\penjualan.php', 48, [...])
+ 2 APPPATH\Views\penjualan.php(48): number_format('789,000', 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 6 APPPATH\Views\template.php(199): view('Penjualan')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+10 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:13:29 --> A non well formed numeric value encountered
+in APPPATH\Views\penjualan.php on line 51.
+ 1 APPPATH\Views\penjualan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\penjualan.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 5 APPPATH\Views\template.php(199): view('Penjualan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:16:34 --> A non well formed numeric value encountered
+in APPPATH\Views\penjualan.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\penjualan.php', 48, [...])
+ 2 APPPATH\Views\penjualan.php(48): number_format('789,000', 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 6 APPPATH\Views\template.php(199): view('Penjualan')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+10 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 11:36:00 --> mysqli_sql_exception: Unknown column 'tanggal_penjualan' in 'order clause' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\ModelPembelian.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\test\app\Controllers\Pembelian.php(23): App\Models\ModelPembelian->AllData()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Pembelian->index()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 11:36:00 --> Unknown column 'tanggal_penjualan' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pembelian`
+ORDER BY `tanggal_penjualan` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembelian`
+ORDER BY `tanggal_penjualan` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembelian`
+ORDER BY `tanggal_penjualan` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembelian`
+ORDER BY `tanggal_penjualan` DESC', [], false)
+ 5 APPPATH\Models\ModelPembelian.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembelian.php(23): App\Models\ModelPembelian->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pembelian->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:35:28 --> Undefined property: App\Controllers\Home::$ModelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelUser', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:35:49 --> Too few arguments to function App\Controllers\Home::CekLogin(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:37:05 --> Undefined property: App\Controllers\Home::$ModelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelUser', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:40:16 --> Undefined property: App\Controllers\Home::$ModelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelUser', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:41:43 --> Undefined property: App\Controllers\Home::$ModelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelUser', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 12:44:14 --> Undefined property: App\Controllers\Home::$ModelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelUser', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:41:45 --> Undefined variable: user
+in APPPATH\Views\user.php on line 37.
+ 1 APPPATH\Views\user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Views\\user.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('User', [], true)
+ 5 APPPATH\Controllers\Admin.php(44): view('User', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->User()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:06:35 --> Call to undefined method App\Models\Jual::AllData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Kasir.php(31): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:16:21 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Beli.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Beli', [], true)
+ 3 APPPATH\Views\kasir.php(63): view('Beli')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 7 APPPATH\Controllers\Kasir.php(45): view('kasir', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Beli()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:18:51 --> Undefined variable: subjudul
+in APPPATH\Views\kasir.php on line 69.
+ 1 APPPATH\Views\kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subjudul', 'APPPATH\\Views\\kasir.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(20): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:19:00 --> Undefined variable: subjudul
+in APPPATH\Views\kasir.php on line 69.
+ 1 APPPATH\Views\kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subjudul', 'APPPATH\\Views\\kasir.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(20): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:29:57 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:02 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:03 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:03 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:03 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:04 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:05 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:32:06 --> Undefined variable: page
+in APPPATH\Views\kasir.php on line 92.
+ 1 APPPATH\Views\kasir.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\kasir.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 5 APPPATH\Controllers\Kasir.php(22): view('kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:49:09 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template_kasir', [], true)
+ 3 APPPATH\Controllers\Kasir.php(19): view('template_kasir', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:50:05 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template_kasir', [], true)
+ 3 APPPATH\Views\kasir.php(93): view('template_kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('kasir', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:50:05 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template_kasir', [], true)
+ 3 APPPATH\Views\kasir.php(93): view('template_kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('kasir', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:22 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Controllers\Kasir.php(19): view('kasir', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:38 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:39 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:40 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:40 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:51:47 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:54:45 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(19): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 16:10:09 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasirjual.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasirjual', [], true)
+ 3 APPPATH\Views\templates.php(93): view('kasirjual')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(31): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:49:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:50:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:50:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:50:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:50:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:50:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:53:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:53:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:53:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 17:53:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasir.php(34): CodeIgniter\Model->__get('NoFaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:53:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:53:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:55:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:55:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:55:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:55:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:57:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:57:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:57:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:57:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:57:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:57:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:57:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:57:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan)='20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan)=\'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:57:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:57:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:58:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:58:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 17:59:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1 in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\test\app\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\test\app\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+#5 C:\xampp\htdocs\test\system\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 17:59:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tanggal_penjualan) = '20221212'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 4 APPPATH\Models\ModelJual.php(18): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_faktur,4)) as no_urut from penjualan DATE(tanggal_penjualan) = \'20221212\'')
+ 5 APPPATH\Controllers\Kasir.php(34): App\Models\ModelJual->NoFaktur()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

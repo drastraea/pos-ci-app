@@ -1,0 +1,409 @@
+CRITICAL - 2023-01-07 03:04:39 --> Cannot redeclare App\Models\ModelLaporan::DataBeliHarian()
+in APPPATH/Models/ModelLaporan.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-07 03:05:13 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabelbeliharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabelbeliharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabelbeliharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelBeliHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:05:24 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:05:38 --> Undefined array key "harga_penjualan"
+in APPPATH/Views/laporan/printlaporan.php on line 59.
+ 1 APPPATH/Views/laporan/printlaporan.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(113): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:05:47 --> Undefined array key "harga_penjualan"
+in APPPATH/Views/laporan/printlaporan.php on line 59.
+ 1 APPPATH/Views/laporan/printlaporan.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(113): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:05:53 --> Undefined array key "harga_penjualan"
+in APPPATH/Views/laporan/printlaporan.php on line 59.
+ 1 APPPATH/Views/laporan/printlaporan.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(113): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:09:04 --> Invalid file: laporan/tabelstokharian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:09:05 --> Invalid file: laporan/tabelstokharian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:12:37 --> Invalid file: laporan/printlaporanstok.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianStok()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:14:56 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporan/printlaporanstok.php on line 56.
+ 1 APPPATH/Views/laporan/printlaporanstok.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporanstok.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(151): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianStok()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:15:32 --> Undefined array key "nama_penjualan"
+in APPPATH/Views/laporan/printlaporanstok.php on line 59.
+ 1 APPPATH/Views/laporan/printlaporanstok.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporanstok.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(151): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianStok()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:48 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:49 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:50 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:50 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:50 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:51 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:51 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:51 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:51 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:52 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:52 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:52 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:25:53 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:26:05 --> syntax error, unexpected token "echo"
+in APPPATH/Views/laporan/tabelstokharian.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporan.php(136): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:42:05 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 03:43:29 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 04:03:36 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:42 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:43 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:44 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:44 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:44 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:46 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:16:48 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:17:07 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 13:17:08 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/printlaporan.php on line 93.
+ 1 APPPATH/Views/laporan/printlaporan.php(93): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(74): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->PrintLaporanHarianJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 14:08:21 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabelbeliharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabelbeliharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabelbeliharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelBeliHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 14:08:24 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabelbeliharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabelbeliharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabelbeliharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(97): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelBeliHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 14:08:40 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 14:08:43 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporan/tabeljualharian.php on line 49.
+ 1 APPPATH/Views/laporan/tabeljualharian.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabeljualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(59): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

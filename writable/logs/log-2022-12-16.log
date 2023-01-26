@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-16 01:37:15 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH/Debug/Toolbar.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Debug/Toolbar.php(419): strpos()
+ 3 SYSTEMPATH/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+ 4 SYSTEMPATH/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

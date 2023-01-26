@@ -1,0 +1,28 @@
+CRITICAL - 2022-12-20 14:33:44 --> Division by zero
+in APPPATH/Views/admin.php on line 17.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/template.php(220): view()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin.php(33): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:08:02 --> Division by zero
+in APPPATH/Views/admin.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/template.php(220): view()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin.php(33): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

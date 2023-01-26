@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^harmonisgold\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.harmonisgold\.com$
+RewriteRule ^/?$ "https\:\/\/harmonisgold\.com\/harmonis" [R=301,L]
+

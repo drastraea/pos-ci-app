@@ -1,0 +1,37 @@
+CRITICAL - 2022-12-26 18:26:48 --> Undefined variable $totalberat
+in APPPATH/Views/kasir/listjualharian.php on line 66.
+ 1 APPPATH/Views/kasir/listjualharian.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasir/listjualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/kasir/kasirjual.php(66): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasir/kasirjual.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/templates.php(104): view()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Kasir.php(43): view()
+14 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+15 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 18:46:51 --> Call to a member function move() on null
+in APPPATH/Controllers/Kasir.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 18:46:56 --> Call to a member function move() on null
+in APPPATH/Controllers/Kasir.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 18:47:03 --> Call to a member function move() on null
+in APPPATH/Controllers/Kasir.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,2608 @@
+CRITICAL - 2023-01-26 02:21:21 --> Undefined variable $totalberat
+in APPPATH/Views/laporan/tabelstokharian.php on line 39.
+ 1 APPPATH/Views/laporan/tabelstokharian.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabelstokharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(136): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 02:21:22 --> Undefined variable $totalberat
+in APPPATH/Views/laporan/tabelstokharian.php on line 39.
+ 1 APPPATH/Views/laporan/tabelstokharian.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporan/tabelstokharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporan.php(136): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Laporan->TabelStokHarian()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:37:26 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 0 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:37:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:38:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:38:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:38:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:38:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:38:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:40:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:40:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:40:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:40:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:40:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:41:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:42:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:43:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:43:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:43:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:43:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:52:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:52:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:52:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:52:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:54:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 03:56:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Laporanbulanan.php(55): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:07:16 --> Undefined variable $01
+in APPPATH/Controllers/Laporanbulanan.php on line 58.
+ 1 APPPATH/Controllers/Laporanbulanan.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:07:16 --> Undefined variable $01
+in APPPATH/Controllers/Laporanbulanan.php on line 58.
+ 1 APPPATH/Controllers/Laporanbulanan.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:07:27 --> Undefined variable $01
+in APPPATH/Controllers/Laporanbulanan.php on line 58.
+ 1 APPPATH/Controllers/Laporanbulanan.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:07:54 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 42.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:24 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:37 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:38 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:38 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:39 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:08:39 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:09:17 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:09:19 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:09:22 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:09:24 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:09:58 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:13:46 --> Call to undefined function App\Models\month()
+in APPPATH/Models/ModelLaporan.php on line 72.
+ 1 APPPATH/Controllers/Laporanbulanan.php(66): App\Models\ModelLaporan->DataJualBulanan()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:37:08 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:21 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:22 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:24 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:25 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:26 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:26 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:27 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:27 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:41:27 --> Undefined variable $emas
+in APPPATH/Models/ModelLaporan.php on line 74.
+ 1 APPPATH/Models/ModelLaporan.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Laporanbulanan.php(56): App\Models\ModelLaporan->DataJualBulanan()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:44 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:45 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:45 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:46 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:46 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:46 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:52 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:53 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:53 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:53 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:53 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:55 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:56 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:56 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:56 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:57 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:57 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:57 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:57 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:46:57 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:47:51 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:47:56 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:37 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:39 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:39 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:40 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:41 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:41 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:42 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:42 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:43 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:43 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:44 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:44 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:45 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:48:46 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:49:36 --> Undefined variable $response
+in APPPATH/Controllers/Laporanbulanan.php on line 66.
+ 1 APPPATH/Controllers/Laporanbulanan.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:01 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:01 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:02 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:02 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:03 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:03 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:04 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:04 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:04 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:53:05 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:17 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:18 --> Undefined array key "tanggal_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 19.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:30 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:31 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:31 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:32 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:32 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:34 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:54:34 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:56:17 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:57:01 --> Undefined array key "berat_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 16.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:58:04 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:58:12 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:58:23 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 04:58:53 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:11 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:34 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:35 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:35 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:35 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:36 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:36 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:36 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:36 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:36 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:37 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:37 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:37 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:00:38 --> Undefined array key "kadar_penjualan"
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 20.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:05:56 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:06:26 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:06:27 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:06:28 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:06:28 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 49.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(49): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:08:17 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Laporanbulanan.php on line 67.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:14:50 --> Unsupported operand types: array / array
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:16:52 --> Unsupported operand types: array / array
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:37:00 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 0 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:37:18 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:37:25 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:38:05 --> Too few arguments to function App\Controllers\LaporanBulanan::PrintLaporanJual(), 1 passed in /home/u1572716/public_html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Laporanbulanan.php on line 68.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:38:08 --> Undefined variable $tgl
+in APPPATH/Views/laporanbulanan/printlaporan.php on line 6.
+ 1 APPPATH/Views/laporanbulanan/printlaporan.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:38:41 --> Undefined variable $tgl
+in APPPATH/Views/laporanbulanan/printlaporan.php on line 6.
+ 1 APPPATH/Views/laporanbulanan/printlaporan.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:39:05 --> Undefined variable $databulanan
+in APPPATH/Views/laporanbulanan/printlaporan.php on line 75.
+ 1 APPPATH/Views/laporanbulanan/printlaporan.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/printlaporan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(78): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:48:49 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 05:49:46 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:13:59 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:13:59 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:14:02 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:14:02 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:14:02 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:14:04 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:14:08 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:37 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:38 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:39 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:39 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:39 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:30:41 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:31:10 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:33:45 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:35:13 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:35:14 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:35:14 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:35:14 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:20 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:21 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:22 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:22 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:22 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:41:22 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:45:03 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:45:06 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 06:45:59 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:04:27 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(63): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:11:20 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJual()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:20:43 --> Invalid file: laporanbulanan/murni/tabeljual.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(261): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJualMurni()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:21:25 --> Invalid file: laporanbulanan/murni/tabeljual.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(261): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJualMurni()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:21:44 --> Invalid file: laporanbulanan/murni/tabeljual.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(261): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJualMurni()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:22:33 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/murni/tabeljual.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/murni/tabeljual.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/murni/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(261): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJualMurni()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:34:56 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:34:57 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:34:58 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:34:58 --> Undefined variable $bulan
+in APPPATH/Controllers/Laporanbulanan.php on line 113.
+ 1 APPPATH/Controllers/Laporanbulanan.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanBeli()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:35:10 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:35:35 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:35:36 --> Undefined variable $tgl
+in APPPATH/Views/laporanbulanan/printlaporanbeli.php on line 6.
+ 1 APPPATH/Views/laporanbulanan/printlaporanbeli.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/printlaporanbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:36:02 --> Undefined variable $dataharian
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 14.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(105): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:36:02 --> Undefined array key "harga_penjualan"
+in APPPATH/Views/laporanbulanan/printlaporanbeli.php on line 80.
+ 1 APPPATH/Views/laporanbulanan/printlaporanbeli.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/printlaporanbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(119): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:49:53 --> Undefined variable $bulan
+in APPPATH/Controllers/Laporanbulanan.php on line 177.
+ 1 APPPATH/Controllers/Laporanbulanan.php(177): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:49:54 --> Undefined variable $bulan
+in APPPATH/Controllers/Laporanbulanan.php on line 192.
+ 1 APPPATH/Controllers/Laporanbulanan.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanHancuranBeli()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:50:59 --> Undefined variable $tgl
+in APPPATH/Controllers/Laporanbulanan.php on line 195.
+ 1 APPPATH/Controllers/Laporanbulanan.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanHancuranBeli()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:51:26 --> Undefined variable $tgl
+in APPPATH/Controllers/Laporanbulanan.php on line 195.
+ 1 APPPATH/Controllers/Laporanbulanan.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanHancuranBeli()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:53:07 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:53:08 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/tabelbeli.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/tabelbeli.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/tabelbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:56:58 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:02 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:03 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:03 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:03 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:04 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:05 --> Invalid file: laporanbulanan/murni/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:05 --> Undefined variable $tgl
+in APPPATH/Views/laporanbulanan/murni/printlaporanbeli.php on line 6.
+ 1 APPPATH/Views/laporanbulanan/murni/printlaporanbeli.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/murni/printlaporanbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(199): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanHancuranBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:35 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:36 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:43 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:57:43 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:58:13 --> Undefined variable $tgl
+in APPPATH/Views/laporanbulanan/hancuran/printlaporanbeli.php on line 6.
+ 1 APPPATH/Views/laporanbulanan/hancuran/printlaporanbeli.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/hancuran/printlaporanbeli.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(199): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->PrintLaporanHancuranBeli()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:28 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:28 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:33 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:33 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:34 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 07:59:35 --> Invalid file: laporanbulanan/hancuran/tabelbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Laporanbulanan.php(185): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelBeliHancuran()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 08:07:09 --> Invalid file: laporan/murni/laporanbeli.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/template.php(385): view()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Laporanbulanan.php(213): view()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->LaporanBeliMurni()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 08:12:10 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH/Views/laporanbulanan/murni/tabeljual.php on line 48.
+ 1 APPPATH/Views/laporanbulanan/murni/tabeljual.php(48): round()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/laporanbulanan/murni/tabeljual.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Laporanbulanan.php(267): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\LaporanBulanan->TabelJualMurni()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 08:47:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'test', 3306, '', 0)
+#1 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\harmonisgold\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\harmonisgold\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\harmonisgold\app\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisg...', '7c4a8d09ca3762a...')
+#6 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+#7 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\harmonisgold\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\harmonisgold\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\harmonisgold\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\harmonisgold\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\harmonisgold\app\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisg...', '7c4a8d09ca3762a...')
+#5 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+#6 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\harmonisgold\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\harmonisgold\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 08:47:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisgold.com', '7c4a8d09ca3762af61e59520943dc26494f8941b')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-26 08:47:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'test', 3306, '', 0)
+#1 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\harmonisgold\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\harmonisgold\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\harmonisgold\app\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisg...', '7c4a8d09ca3762a...')
+#6 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+#7 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\harmonisgold\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\harmonisgold\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\harmonisgold\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\harmonisgold\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\harmonisgold\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\harmonisgold\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\harmonisgold\app\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisg...', '7c4a8d09ca3762a...')
+#5 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+#6 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\harmonisgold\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\harmonisgold\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\harmonisgold\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 08:47:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(43): App\Models\ModelUser->LoginUser('admin@harmonisgold.com', '7c4a8d09ca3762af61e59520943dc26494f8941b')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->CekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:48:25 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Views\laporan\tabeljualharian.php on line 49.
+ 1 APPPATH\Views\laporan\tabeljualharian.php(49): round('ROOTPATH\\public')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\tabeljualharian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/tabeljualharian', [], true)
+ 5 APPPATH\Controllers\Laporan.php(59): view('laporan/tabeljualharian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->TabelJualHarian()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

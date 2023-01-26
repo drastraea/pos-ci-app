@@ -1,0 +1,204 @@
+CRITICAL - 2022-12-17 08:44:44 --> Invalid file: listjualharian.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/kasirjual.php(66): view()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasirjual.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 7 APPPATH/Views/templates.php(102): view()
+ 8 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates.php')
+ 9 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+11 APPPATH/Controllers/Kasir.php(40): view()
+12 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+13 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:45:20 --> Undefined variable $value
+in APPPATH/Views/listjualharian.php on line 47.
+ 1 APPPATH/Views/listjualharian.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/listjualharian.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/kasirjual.php(66): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasirjual.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/templates.php(102): view()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Kasir.php(40): view()
+14 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+15 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-17 08:51:52 --> mysqli_sql_exception: Unknown column 'foto' in 'field list' in /home/u1572716/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1572716/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u1572716/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u1572716/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u1572716/public_html/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u1572716/public_html/app/Models/ModelJual.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u1572716/public_html/app/Controllers/Kasir.php(55): App\Models\ModelJual->Jual()
+#6 /home/u1572716/public_html/system/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+#7 /home/u1572716/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /home/u1572716/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u1572716/public_html/harmonis/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-17 08:51:52 --> Unknown column 'foto' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ModelJual.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Kasir.php(55): App\Models\ModelJual->Jual()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-17 08:52:17 --> mysqli_sql_exception: Unknown column 'foto' in 'field list' in /home/u1572716/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1572716/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/u1572716/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u1572716/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u1572716/public_html/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u1572716/public_html/app/Models/ModelJual.php(19): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u1572716/public_html/app/Controllers/Kasir.php(55): App\Models\ModelJual->Jual()
+#6 /home/u1572716/public_html/system/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+#7 /home/u1572716/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /home/u1572716/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u1572716/public_html/harmonis/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-17 08:52:17 --> Unknown column 'foto' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ModelJual.php(19): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Kasir.php(55): App\Models\ModelJual->Jual()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Jual()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:53:32 --> Unsupported operand types: string + int
+in APPPATH/Models/ModelJual.php on line 30.
+ 1 APPPATH/Controllers/Kasir.php(37): App\Models\ModelJual->NoFaktur()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:54:01 --> Unsupported operand types: string + int
+in APPPATH/Models/ModelJual.php on line 30.
+ 1 APPPATH/Controllers/Kasir.php(37): App\Models\ModelJual->NoFaktur()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:54:05 --> Unsupported operand types: string + int
+in APPPATH/Models/ModelJual.php on line 30.
+ 1 APPPATH/Controllers/Kasir.php(37): App\Models\ModelJual->NoFaktur()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:56:02 --> Unsupported operand types: string + int
+in APPPATH/Models/ModelJual.php on line 31.
+ 1 APPPATH/Controllers/Kasir.php(37): App\Models\ModelJual->NoFaktur()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 08:58:35 --> Call to undefined function App\Models\int()
+in APPPATH/Models/ModelJual.php on line 31.
+ 1 APPPATH/Controllers/Kasir.php(37): App\Models\ModelJual->NoFaktur()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 09:23:10 --> Undefined variable $hasil
+in APPPATH/Views/penjualan.php on line 165.
+ 1 APPPATH/Views/penjualan.php(165): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/penjualan.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/template.php(211): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Penjualan.php(26): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 09:49:04 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 09:49:46 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 09:54:03 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 09:57:33 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:00:50 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:05:03 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:06:49 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:06:52 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:07:02 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:10:05 --> Call to a member function move() on null
+in APPPATH/Controllers/Penjualan.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 10:53:02 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Penjualan.php(33): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Penjualan->Jual()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,28 @@
+CRITICAL - 2023-01-11 19:16:13 --> Undefined variable $value
+in APPPATH/Views/kasir/nota.php on line 10.
+ 1 APPPATH/Views/kasir/nota.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/kasir/nota.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/templatenota.php(75): view()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templatenota.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Kasir.php(100): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 20:27:32 --> syntax error, unexpected token "/"
+in APPPATH/Views/kasir/nota.php on line 128.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/templatenota.php(83): view()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templatenota.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Kasir.php(100): view()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

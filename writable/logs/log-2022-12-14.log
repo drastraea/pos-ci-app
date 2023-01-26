@@ -1,0 +1,2108 @@
+CRITICAL - 2022-12-14 14:30:24 --> Too few arguments to function App\Controllers\Kasir::Print(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kasir.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 14:34:25 --> Too few arguments to function App\Controllers\Kasir::Print(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kasir.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 14:39:09 --> Undefined variable: namatoko
+in APPPATH\Views\print.php on line 26.
+ 1 APPPATH\Views\print.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: namatoko', 'APPPATH\\Views\\print.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:51:47 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:52:05 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:52:26 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:52:27 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:52:28 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 15:52:29 --> Undefined variable: id_laporan
+in APPPATH\Views\print.php on line 61.
+ 1 APPPATH\Views\print.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_laporan', 'APPPATH\\Views\\print.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:00:05 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Kasir/KasirJual.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kasir/KasirJual', [], true)
+ 3 APPPATH\Views\print.php(48): view('Kasir/KasirJual')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 7 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:00:34 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view('print_kasir', 'Kasir/KasirJual')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:01:15 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view('print_kasir', 'Kasir/KasirJual')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:01:16 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view('print_kasir', 'Kasir/KasirJual')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:01:16 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view('print_kasir', 'Kasir/KasirJual')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:01:53 --> Undefined variable: print
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: print', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:02:49 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view('admin', 'Kasir/KasirJual')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:33:27 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 3 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:36:43 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 3 APPPATH\Controllers\Kasir.php(40): view('templates', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->KasirJual()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:37:00 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 3 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:37:53 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\Kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('Kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:38:04 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\Kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('Kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:39:20 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\Kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('Kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:39:40 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\Kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('Kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:41:54 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 3 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:41:56 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:42:55 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:42:55 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:42:56 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:42:56 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:44:38 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:44:38 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:44:39 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:44:39 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\kasir\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kasir\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:45:45 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/templates.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/templates', [], true)
+ 3 APPPATH\Controllers\Kasir.php(26): view('kasir/templates', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:04 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('infokasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('infokasir', [], true)
+ 3 APPPATH\Views\templates.php(100): view('infokasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:47 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:57 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:58 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:59 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:59 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:46:59 --> Invalid file: {0}
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/menukasir.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kasir/menukasir', [], true)
+ 3 APPPATH\Views\templates.php(102): view('kasir/menukasir')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates', [], true)
+ 7 APPPATH\Controllers\Kasir.php(26): view('templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:55:25 --> Invalid argument supplied for foreach()
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:56:20 --> Invalid argument supplied for foreach()
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 16:57:14 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:00:02 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:02:44 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:03:45 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:41 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:04:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:06:31 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:06:32 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:07:31 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:09:46 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:09:54 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:09:58 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:06 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:17 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:25 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:32 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:42 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:11:46 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:10 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:19 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:20 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:25 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:31 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:12:32 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:11 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:11 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:34 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:35 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:35 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:35 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:35 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:13:36 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:14:12 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:14:53 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:15:24 --> Argument 1 passed to view() must be of the type string, array given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:18:12 --> Argument 1 passed to view() must be of the type string, array given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:18:28 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Models\ModelJual.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ModelJual.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelJual')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelJual')
+ 4 APPPATH\Controllers\Kasir.php(13): spl_autoload_call('App\\Models\\ModelJual')
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kasir->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:18:36 --> Argument 1 passed to view() must be of the type string, array given, called in C:\xampp\htdocs\test\app\Views\print.php on line 48
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Views\print.php(48): view([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:21:25 --> Undefined variable: hasil
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hasil', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:21:41 --> Invalid argument supplied for foreach()
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:23:57 --> Undefined variable: hasil
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hasil', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(75): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:27:23 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:27:52 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:30:01 --> Too few arguments to function App\Controllers\Kasir::Print(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kasir.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:32:39 --> Too few arguments to function App\Controllers\Kasir::Print(), 0 passed in C:\xampp\htdocs\test\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kasir.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:33:33 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:53:46 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:56:57 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:57:03 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 17:59:11 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:00:16 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:00:19 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:00:22 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:11:15 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:11:48 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:12:43 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:03 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:04 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:04 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:05 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:05 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:14:05 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:17:41 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:17:52 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:18:23 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:18:37 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:18:50 --> Undefined variable: data
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Models\\ModelJual.php', 50, [])
+ 2 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:19:00 --> Undefined variable: value
+in APPPATH\Views\print_nota.php on line 1.
+ 1 APPPATH\Views\print_nota.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Views\\print_nota.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(74): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 18:57:22 --> Division by zero
+in APPPATH\Views\penjualan.php on line 54.
+ 1 APPPATH\Views\penjualan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\penjualan.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penjualan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Penjualan', [], true)
+ 5 APPPATH\Views\template.php(211): view('Penjualan')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Penjualan.php(25): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:01:47 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:04:24 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:05:01 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:05:02 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:05:05 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:06:39 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:07:32 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:16:16 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:16:17 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:16:47 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:18:23 --> Array to string conversion
+in APPPATH\Models\ModelJual.php on line 53.
+ 1 APPPATH\Models\ModelJual.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\ModelJual.php', 53, [...])
+ 2 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:23:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('uri')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:23:23 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:23:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('uri')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:25:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:26:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('uri')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:26:38 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 48.
+ 1 APPPATH\Views\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:27:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('uri')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:27:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelJual.php(49): CodeIgniter\Model->__get('uri')
+ 4 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:31:23 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:53 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:54 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:54 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:54 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:55 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:32:55 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:33:01 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:33:27 --> Too few arguments to function App\Models\ModelJual::CetakData(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 70 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(70): App\Models\ModelJual->CetakData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:34:05 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 48.
+ 1 APPPATH\Views\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:34:47 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 71.
+ 1 APPPATH\Controllers\Kasir.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 71, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:36:10 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 48.
+ 1 APPPATH\Views\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:36:46 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:37:44 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:37:45 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:37:45 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:38:49 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 48.
+ 1 APPPATH\Views\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:19 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 48.
+ 1 APPPATH\Views\print.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:28 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:29 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:29 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:30 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:30 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:30 --> Undefined variable: cetak
+in APPPATH\Views\print.php on line 47.
+ 1 APPPATH\Views\print.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 5 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:39:42 --> Undefined variable: cetak
+in APPPATH\Views\print_nota.php on line 20.
+ 1 APPPATH\Views\print_nota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\print_nota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print_nota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print_nota', [], true)
+ 5 APPPATH\Views\print.php(48): view('print_nota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:40:31 --> Undefined variable: cetak
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:41:21 --> Undefined variable: cetak
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cetak', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(73): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:42:31 --> Undefined variable: data
+in APPPATH\Controllers\Kasir.php on line 72.
+ 1 APPPATH\Controllers\Kasir.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Kasir.php', 72, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:42:45 --> Too few arguments to function App\Models\ModelJual::Nota(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 72 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:42:53 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:43:28 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('id_penjualan')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:29 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:29 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:30 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:30 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:30 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:30 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(72): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:44:59 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:45:05 --> Undefined property: App\Controllers\Kasir::$uri
+in APPPATH\Controllers\Kasir.php on line 69.
+ 1 APPPATH\Controllers\Kasir.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kasir::$uri', 'APPPATH\\Controllers\\Kasir.php', 69, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:45:58 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:19 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:19 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:20 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:20 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:20 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:20 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print('159')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:46:50 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:47:16 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(73): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Print()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:47:54 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:31 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:32 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:33 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:33 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:33 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:33 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:34 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:48:34 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:52:23 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:52:23 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:52:24 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:53:22 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:53:23 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:53:24 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:53:24 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:53:25 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:58:43 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given
+in APPPATH\Models\ModelJual.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given', 'APPPATH\\Models\\ModelJual.php', 49, [...])
+ 2 APPPATH\Models\ModelJual.php(49): mysqli_fetch_array('data')
+ 3 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:19 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 50.
+ 1 APPPATH\Models\ModelJual.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 50, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:26 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:27 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:27 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:27 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:28 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:28 --> Illegal string offset 'id_penjualan'
+in APPPATH\Models\ModelJual.php on line 51.
+ 1 APPPATH\Models\ModelJual.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_penjualan\'', 'APPPATH\\Models\\ModelJual.php', 51, [...])
+ 2 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota('data')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 19:59:59 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(77): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:00:58 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(77): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:01:39 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:01:52 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:02:50 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:02:51 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:03:48 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:04:23 --> Too few arguments to function App\Models\ModelJual::Nota(), 0 passed in C:\xampp\htdocs\test\app\Controllers\Kasir.php on line 74 and exactly 1 expected
+in APPPATH\Models\ModelJual.php on line 47.
+ 1 APPPATH\Controllers\Kasir.php(74): App\Models\ModelJual->Nota()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:04:32 --> Undefined variable: data
+in APPPATH\Controllers\Kasir.php on line 74.
+ 1 APPPATH\Controllers\Kasir.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Kasir.php', 74, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:08:49 --> Undefined variable: data
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:10:09 --> Undefined variable: penjualan
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penjualan', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\print.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('print', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('print', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:10:54 --> Undefined variable: penjualan
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penjualan', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\nota.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nota.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nota', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('nota', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:11:56 --> Undefined variable: penjualan
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: penjualan', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\nota.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nota.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nota', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('nota', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:12:04 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\nota.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nota.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nota', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('nota', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:12:30 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\nota.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nota.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nota', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('nota', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 20:13:16 --> Undefined variable: nota
+in APPPATH\Views\cetaknota.php on line 20.
+ 1 APPPATH\Views\cetaknota.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nota', 'APPPATH\\Views\\cetaknota.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cetaknota.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaknota', [], true)
+ 5 APPPATH\Views\nota.php(48): view('cetaknota')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nota.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nota', [], true)
+ 9 APPPATH\Controllers\Kasir.php(76): view('nota', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kasir->Nota('159')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
